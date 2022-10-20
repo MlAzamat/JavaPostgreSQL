@@ -52,7 +52,7 @@ public class Main {
                         value_metric++;
                     } else {
                         randomInt = generateRandomIntIntRange(7, 222);
-                        System.out.println("cudddddddddddddddddddddddddddddddrrent_time = " + randomInt);
+                        System.out.println("randomInt = " + randomInt);
                         value_metric = generateRandomIntIntRange(0, 17);
                     }
 
