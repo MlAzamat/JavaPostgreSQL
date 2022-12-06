@@ -10,7 +10,7 @@ public class Main {
     //  Database credentials
     static final String DB_URL = "jdbc:postgresql://127.0.0.1:5432/postgres";
     static final String USER = "postgres";
-    static final String PASS = "1234";
+    static final String PASS = "1111";
 
     public static void main(String[] args) {
 
