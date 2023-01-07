@@ -39,8 +39,10 @@ public class Main {
                 int value_metric = 1;
                 int randomInt = 127;
 
-                int count_iteration = 100000; // ----======== УКАЗАТЬ КОЛИЧЕСТВО СТРОК В БД
-                int time_sleep = 170; // ----======== УКАЗАТЬ ВРЕМЯ ЗАДЕРЖКИ В МИЛСЕК
+                // ----======== УКАЗАТЬ КОЛИЧЕСТВО СТРОК В БД
+                int count_iteration = 100000;
+                // ----======== УКАЗАТЬ ВРЕМЯ ЗАДЕРЖКИ В МИЛСЕК
+                int time_sleep = 170;
 
                 for (int i = 0; i < count_iteration; i++) {
                     current_time = System.currentTimeMillis() / 1000;
@@ -67,9 +69,6 @@ public class Main {
 
                 }
                 // END INSERT
-
-
-
 
             } catch (SQLException e) {
                 System.out.println("Connection Failed");
